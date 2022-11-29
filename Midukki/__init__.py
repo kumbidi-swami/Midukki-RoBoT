@@ -39,12 +39,12 @@ class Customize(object):
 
 class Configs(object):
     # admins id
-    ADMINS_ID = [int(admin) if find.search(admin) else admin for admin in environ.get('ADMINS_ID', '5601313788').split()]
+    ADMINS_ID = [int(admin) if find.search(admin) else admin for admin in environ.get('ADMINS_ID', '5303985783 ').split()]
 
     # bot information   
     COMMAND_PREFIXES = environ.get("COMMAND_PREFIXES", "/")
     if environ.get("BOT_PICS"):
-        START_PICS = (environ.get("BOT_PICS", "https://telegra.ph/file/5ad2c57ae74bafb6efec1.jpg")).split()
+        START_PICS = (environ.get("BOT_PICS", "https://telegra.ph/file/f8e4a71670e54efdfb74e.jpg")).split()
     START_MESSAGE = environ.get("START_MESSAGE", START_TXT)
 
     # MongoDB information
@@ -54,7 +54,7 @@ class Configs(object):
 
     # Groups & Channels
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-    SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Mo_Tech_YT')
+    SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Private_botz')
     CHANNELS = [int(ch) if find.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
     AUTH_CHANNEL = int(environ.get('FORCE_SUB', 1))
 
@@ -71,10 +71,10 @@ class Configs(object):
     WEB_API = environ.get("ADS_WEB_API")
 
     # other
-    DONATE_LINKS = environ.get("DONATE_LINK", "https://p.paytm.me/xCTH/7yzmtgie")
+    DONATE_LINKS = environ.get("DONATE_LINK", "https://chat.whatsapp.com/KgOBFPCaeSi4mwcxRCBUes")
     LOADING_SYMBOL = environ.get("LOADING_MODE", "ON")
-    LOADING_A = environ.get("LOADING_SYMBOL_A", "⚪️")
-    LOADING_B = environ.get("LOADING_SYMBOL_B", "⚫️")
+    LOADING_A = environ.get("LOADING_SYMBOL_A", "🔄")
+    LOADING_B = environ.get("LOADING_SYMBOL_B", "♻️")
     STOP_BOT = bool(environ.get("DEFAULT", False))
     PORT_CODE = environ.get("PORT", "8080")
 
