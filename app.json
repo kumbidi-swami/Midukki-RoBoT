@@ -10,8 +10,8 @@
       "mo",
       "tech"
     ],
-    "website": "https//telegram.dog/Midukki_RoBoT",
-    "repository": "https://github.com/PR0FESS0R-99/Midukki-RoBoT",
+    "website": "https//telegram.dog/Midukan_RoBoT",
+    "repository": "https://github.com/kumbidi-swami/Midukki-RoBoT",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -39,12 +39,12 @@
             "required": false
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in https://www.mongodb.com/. For more help watch this https://youtu.be/mD9veNL7KoE",
+            "description": "Name of the database in https://www.mongodb.com/",
             "value": "",
             "required": false
         },
         "DATABASE_URL": {
-            "description": "Name of the database in https://www.mongodb.com/. For more help watch this https://youtu.be/mD9veNL7KoE",
+            "description": "Name of the database in https://www.mongodb.com/",
             "value": "",
             "required": true
         },
@@ -130,7 +130,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Your Support chat url or Your Link [with https:// or https://t.me/] Don't use @",
-            "value": "https://t.me/Mo_Tech_YT",
+            "value": "https://t.me/Private_botz",
             "required": false
         }
     },
