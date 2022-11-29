@@ -63,7 +63,7 @@ async def cb_handler(client, query):
             await setting_cb(client, query)
 
     else:
-        await query.answer("This Is not for you", show_alert=True)
+        await query.answer("This Is not for you...", show_alert=True)
 
 @Midukki_RoboT.on_callback_query(filters.create(lambda _, __, query: query.data.startswith("maincb")))
 async def callback_ui(client, query):
@@ -225,12 +225,12 @@ class vars(object):
             button()
                 (
                     "Support",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
+                        url="https://t.me/MovieHouse_TG"
                 ),
             button()
                 (
                     "Updates",
-                        url="https://t.me/Mo_Tech_YT"
+                        url="https://t.me/Private_botz"
                 )
         ],
         [
@@ -304,24 +304,24 @@ class vars(object):
             button()
                 (
                     "Support",
-                        url="https://t.me/Mo_Tech_YT"
+                        url="https://t.me/MovieHouse_TG"
                 ),
             button()
                 (
                     "Source",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
+                        url="https://github.com/kumbidi-swami/midukki-robot"
                 )
         ],
         [
             button()
                 (
                     "Tutorial",
-                        url="https://youtu.be/63K9xkKMBoo"
+                        url="https://sportspranthanlive.ml/"
                 ),
             button()
                 (
                     "Insta",
-                        url="https://www.instagram.com/mrk_yt_"
+                        url="https://www.instagram.com/MovieHouseTG"
                 )
         ],
         [
